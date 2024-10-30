@@ -1,0 +1,54 @@
+.sales {
+  flex: 4;
+  padding: 20px;
+}
+
+.salesTitle {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.salesWrapper {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sales-dashboard {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.metrics-overview {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.metric {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metric span {
+  color: #888;
+}
+
+.metric h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.sales-chart {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

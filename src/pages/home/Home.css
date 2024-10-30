@@ -1,0 +1,12 @@
+.home{
+    flex: 4;
+}
+
+.cards{
+    display: flex;
+}
+
+.homeWidget{
+    display: flex;
+    margin: 20px;
+}

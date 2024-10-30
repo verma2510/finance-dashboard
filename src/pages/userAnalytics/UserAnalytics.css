@@ -1,0 +1,30 @@
+.userAnalytics{
+    flex: 4;
+    padding: 20px;
+    /* margin-left: 20px; */
+}
+
+.dataTitle{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.userChartAnalytics{
+    display: flex;
+}
+
+.userPayment{
+    margin-left: 20px;
+    /* background-color: bisque; */
+}
+
+
+
+.genderData{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+}

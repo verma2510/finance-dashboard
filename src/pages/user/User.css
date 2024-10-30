@@ -1,0 +1,145 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userTitleContainer a {
+  text-decoration: none;
+}
+
+.userCreateButton {
+  background-color: rgb(23, 107, 102);
+  color: white;
+  padding: 10px;
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 5px 5px grey;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.userShowUsername {
+  font-weight: bold;
+}
+
+.userShowBottom {
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9b9a95;
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: rgb(88, 87, 87);
+}
+
+.userShowIcon {
+  font-size: 20px;
+}
+
+.userShowInfoTitle {
+  margin-left: 10px;
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 5px 5px grey;
+  margin-left: 20px;
+}
+
+.userUpdateTitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.userUpdateImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.userUpdateIcon {
+  cursor: pointer;
+}
+
+.userUpdateButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 7, 142);
+  color: white;
+}
