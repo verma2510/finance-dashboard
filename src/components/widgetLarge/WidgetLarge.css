@@ -46,3 +46,14 @@
   background-color: #ebf1fe;
   color: #2a7ade;
 }
+
+@media (max-width: 768px) {
+  .widgetLgTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .widgetLarge {
+    padding: 10px;
+  }
+}

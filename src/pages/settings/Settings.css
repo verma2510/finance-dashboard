@@ -43,3 +43,12 @@ select {
 .save-button:hover {
   background-color: #45a049;
 }
+
+@media (max-width: 768px) {
+  .setting-section {
+    width: 100%;
+  }
+  .settings {
+    padding: 10px;
+  }
+}

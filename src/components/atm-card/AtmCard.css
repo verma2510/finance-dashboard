@@ -55,3 +55,10 @@
   border: none;
   border-bottom: 1px solid gray;
 }
+
+@media (max-width: 400px) {
+  .card, .inputs {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

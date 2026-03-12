@@ -19,19 +19,21 @@ export default function BarAnalytics({
   }
 
   return (
-    <div className="barAnalytics">
-      <BarChart
-        width={width}
-        height={height}
-        series={[
-          {
-            data: data,
-            label: title,
-            color: color,
-          },
-        ]}
-        xAxis={[{ data: labels, scaleType: "band" }]}
-      />
+    <div className="barAnalytics" style={{ maxWidth: '100%', overflowX: 'auto' }}>
+      <div style={{ minWidth: 400 }}>
+        <BarChart
+          width={width}
+          height={height}
+          series={[
+            {
+              data: data,
+              label: title,
+              color: color,
+            },
+          ]}
+          xAxis={[{ data: labels, scaleType: "band" }]}
+        />
+      </div>
       {/* Display legend if showLegend is true */}
       {showLegend && (
         <div className="forecast-legend">

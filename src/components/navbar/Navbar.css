@@ -62,3 +62,19 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+  .navbarIconContainer {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .topProfile {
+    width: 30px;
+    height: 30px;
+  }
+  .navbarWrapper {
+    padding: 0px 10px;
+  }
+}

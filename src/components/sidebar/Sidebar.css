@@ -41,3 +41,22 @@
 .sidebarListItem:hover {
   background-color: #d4d4f6;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    position: relative;
+    top: 0;
+  }
+  .sidebarWrapper {
+    padding: 10px;
+  }
+  .sidebarList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .sidebarListItem {
+    padding: 5px 10px;
+  }
+}

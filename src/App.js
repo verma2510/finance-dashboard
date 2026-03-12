@@ -9,6 +9,7 @@ import Transaction from "./pages/transactions/Transaction";
 import UserAnalytics from "./pages/userAnalytics/UserAnalytics";
 import Sales from "./pages/sales/Sales";
 import Settings from "./pages/settings/Settings";
+import Overview from "./pages/overview/Overview";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/overview" element={<Overview />} />
             <Route path="/users" element={<UserList />} />
             <Route path="/user/:userId" element={<User />} />
             <Route path="/transactions" element={<Transaction />} />

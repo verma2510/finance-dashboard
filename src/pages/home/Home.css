@@ -10,3 +10,16 @@
     display: flex;
     margin: 20px;
 }
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+    .homeWidget {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .home {
+        padding: 10px;
+    }
+}

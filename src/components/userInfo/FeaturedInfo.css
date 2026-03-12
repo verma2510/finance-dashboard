@@ -51,3 +51,12 @@
     font-size: 15px;
     color: rgb(51, 50, 50);
 }
+
+@media (max-width: 768px) {
+    .featuredInfo {
+        flex-direction: column;
+    }
+    .featuredItem {
+        margin: 10px 0;
+    }
+}

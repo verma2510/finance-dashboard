@@ -27,7 +27,7 @@ export default function Sidebar() {
           <ul className="sidebarList">
             <li className="sidebarListItem">
               <RiMenuUnfoldLine />
-              <Link to="/">Overview</Link>
+              <Link to="/overview">Overview</Link>
             </li>
             <li className="sidebarListItem">
               <TbTransactionRupee />
